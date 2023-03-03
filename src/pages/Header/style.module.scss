@@ -1,0 +1,72 @@
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #24252d;
+  padding: 0px 50px 0px 50px;
+  font-family: "Poppins";
+  border-bottom: 1px solid #2d2e36;
+}
+.topmenus {
+  color: #4f4f4f;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  min-width: 280px;
+  cursor: pointer;
+}
+.topmenus > div > a {
+  color: #4f4f4f;
+}
+.topmenus .active > a {
+  color: white !important;
+}
+.topmenus > div {
+  padding-left: 20px;
+  transition: opacity 0.3s;
+}
+.topmenus > div:hover {
+  opacity: 0.6;
+}
+.topbuttons {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.topbuttons:hover {
+  opacity: 0.6;
+}
+
+.topbuttons:nth-child(1) {
+  color: white;
+  background: linear-gradient(
+    101.12deg,
+    #7b61ff 27.35%,
+    #c91cc3 99.99%,
+    #c81cc5 100%,
+    #c81cc5 100%
+  );
+  width: 109px;
+  margin-right: 10px;
+}
+.topbuttons:nth-child(2) {
+  color: #1889da;
+  border: 1px solid;
+  width: 146px;
+}
+
+@media screen and (max-width: 1080px) {
+  .topmenus {
+    display: none !important;
+  }
+  .topbuttons {
+    display: none;
+  }
+}

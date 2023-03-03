@@ -1,0 +1,22 @@
+.biditem{
+    background-color: #2A2D3A;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    width : 233px;
+    height: 319px;
+    margin-top: 20px;
+    cursor : pointer;
+    transition: opacity 0.3s;
+}
+.biditem:hover{
+    opacity: 0.6;
+}
+.biditem>img{
+    width : 210px!important;
+    height : 220px!important;
+}

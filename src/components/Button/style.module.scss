@@ -1,0 +1,33 @@
+.button {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.primary {
+  color: white;
+  background: linear-gradient(
+    101.12deg,
+    #7b61ff 27.35%,
+    #c91cc3 99.99%,
+    #c81cc5 100%,
+    #c81cc5 100%
+  );
+  width: 109px;
+  margin-right: 10px;
+}
+.secondary {
+  color: #1889da;
+  border: 1px solid;
+  width: 146px;
+}

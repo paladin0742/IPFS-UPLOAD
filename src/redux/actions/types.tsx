@@ -1,0 +1,6 @@
+export const LOAD_ALL_USER = 'LOAD_ALL_USER';
+export const FIND_OR_CREATE_USER_DATA = 'FIND_OR_CREATE_USER_DATA';
+export const USER_REFRESH = 'USER_REFRESH';
+
+export const LOAD_ALL_MEDIA = 'LOAD_ALL_MEDIA';
+export const LOAD_MEDIA_DATA = 'LOAD_MEDIA_DATA';
